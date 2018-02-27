@@ -1,0 +1,49 @@
+body {
+  background-color: #222;
+  color: #e06c75;
+}
+.App {
+  text-align: center;
+}
+.toggle-div {
+  margin: 20px;
+}
+.toggle-h3 {
+  margin: 0;
+}
+.toggle-h4 {
+  margin: 0;
+}
+.toggle-button {
+  font-size: 30px;
+  background-color: gray;
+  border: 1px solid gray;
+  width: 300px;
+  color: green;
+}
+.toggle-button:hover {
+  border: 1px solid red;
+}
+
+
+.Loading-hide {
+  display: none;
+}
+
+.Loading-show {
+  display: block;
+}
+
+.Loading-text {
+  margin: 0;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 4s linear;
+  height: 80px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
